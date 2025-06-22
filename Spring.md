@@ -18,3 +18,10 @@
 - Every bean property should have one public setter method and one public getter method.
 - A public no-argument constructor.
 
+## POJO class(Plain Old Java Object) 
+- A simple java class with filed and getter/setter, used for data representation without framework dependencies.
+- Use in Spring
+    - In Spring, POJO classes are often used as:
+    - Model objects for data transfer
+    - Request/Response objects in REST APIs
+    - Entities in JPA/Hibernate

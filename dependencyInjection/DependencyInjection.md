@@ -8,9 +8,10 @@
 -  Dependencies are injected into a class through setter methods.
 -  Setter method DI is more readable.
 -  Setter method DI is more flexible
+-  Setter method me applicationContext.xml file bean ke andar <property> tag ka use krte the or iske andar name or value attribute hote the
 
 ## 2.Constructor Injection
 -  Dependencies are injected into a class through constructor.
 -  Setter method DI is less readable.
 -  Setter method DI is less flexible
-
+- Constructor injection me applicationContext.xml file me bean ke andar <constructor> tag ke andar alue attribute hota hai wo bhi sequence se.

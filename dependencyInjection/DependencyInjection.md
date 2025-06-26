@@ -5,9 +5,12 @@
 - We can achive depencency injection by 2 ways
 
 ## 1.Setter Injection
--  Dependencies are provided through public setter methods. This allows for optional dependencies and can be useful when a dependency might change during the object's lifetime, although it can lead to objects being in an incomplete state if not all setters are called.
+-  Dependencies are injected into a class through setter methods.
+-  Setter method DI is more readable.
+-  Setter method DI is more flexible
 
 ## 2.Constructor Injection
-- Dependencies are provided as arguments to the class's constructor. This is generally the preferred method as it ensures that the object is in a valid state immediately after creation and makes dependencies explicit.
-Java
+-  Dependencies are injected into a class through constructor.
+-  Setter method DI is less readable.
+-  Setter method DI is less flexible
 

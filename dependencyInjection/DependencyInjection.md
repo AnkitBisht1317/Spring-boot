@@ -2,6 +2,7 @@
 - It is a "Design Pattern".
 - It main task is inject "one object into another object".
 - It is used to achive "lossly coupling" in java.
+- "ref" attribute ki help se ek object ko dusre me dalte hai
 - We can achive depencency injection by 2 ways
 
 ## 1.Setter Injection

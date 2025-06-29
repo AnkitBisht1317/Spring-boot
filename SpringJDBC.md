@@ -13,21 +13,6 @@
 - Spring’s JdbcTemplate provides various useful methods such as queryForObject() for fetching a single value, query() for retrieving multiple rows, update() for insert, update, and delete operations, and batchUpdate() for executing a batch of SQL statements efficiently.
 
 
-####  Project Structure:
-spring-jdbc-demo/
-├── pom.xml
-└── src/
-└── main/
-└── java/
-└── com/
-└── example/
-├── config/
-│ └── AppConfig.java
-├── dao/
-│ └── StudentDao.java
-├── model/
-│ └── Student.java
-└── MainApp.java
 
 #### student.java
 ```java

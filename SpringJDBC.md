@@ -15,19 +15,19 @@
 
 ####  Project Structure:
 spring-jdbc-demo/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/example/
-│       │       ├── config/
-│       │       │   └── AppConfig.java
-│       │       ├── dao/
-│       │       │   └── StudentDao.java
-│       │       ├── model/
-│       │       │   └── Student.java
-│       │       └── MainApp.java
 ├── pom.xml
-
+└── src/
+└── main/
+└── java/
+└── com/
+└── example/
+├── config/
+│ └── AppConfig.java
+├── dao/
+│ └── StudentDao.java
+├── model/
+│ └── Student.java
+└── MainApp.java
 
 #### student.java
 ```java

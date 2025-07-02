@@ -1,7 +1,7 @@
 
 
 # Spring Framework me Tomcat ki jarurat kyun hoti hai?
-- Spring Framework ek standalone framework nahi hai
+- Spring Framework ek standalone framework nahi hai. (Standalone application wo hoti hai jo directly run ho sakti hai bina kisi external software (jaise server, container, etc.) ke help ke.)
 - Spring Framework khud se web server provide nahi karta.
 - Ye sirf backend logic handle karta hai (like dependency injection, data access, etc.).
 
